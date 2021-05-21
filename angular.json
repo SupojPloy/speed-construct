@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -24,9 +27,31 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/magnific-popup.css",
+              "src/assets/css/slicknav.min.css",
+              "src/assets/css/owl.carousel-2.3.4.min.css",
+              "src/assets/css/fontawesome-free-5.12.0.min.css",
+              "src/assets/css/bootstrap-4.3.1.min.css",
+              "src/assets/css/default.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/colornip.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.4.1.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap-4.3.1.min.js",
+              "src/assets/js/vendor/modernizr-3.5.0.min.js",
+              "src/assets/js/vendor/owl.carousel-2.3.4.min.js",
+              "src/assets/js/vendor/owl.carousel2.thumbs.min.js",
+              "src/assets/js/vendor/waypoints-4.0.1.min.js",
+              "src/assets/js/vendor/colornip.min.js",
+              "src/assets/js/vendor/slicknav.min.js",
+              "src/assets/js/vendor/jquery.scrollUp.min.js",
+              "src/assets/js/vendor/magnific-popup.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -87,9 +112,31 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/magnific-popup.css",
+              "src/assets/css/slicknav.min.css",
+              "src/assets/css/owl.carousel-2.3.4.min.css",
+              "src/assets/css/fontawesome-free-5.12.0.min.css",
+              "src/assets/css/bootstrap-4.3.1.min.css",
+              "src/assets/css/default.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/colornip.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.4.1.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap-4.3.1.min.js",
+              "src/assets/js/vendor/modernizr-3.5.0.min.js",
+              "src/assets/js/vendor/owl.carousel-2.3.4.min.js",
+              "src/assets/js/vendor/owl.carousel2.thumbs.min.js",
+              "src/assets/js/vendor/waypoints-4.0.1.min.js",
+              "src/assets/js/vendor/colornip.min.js",
+              "src/assets/js/vendor/slicknav.min.js",
+              "src/assets/js/vendor/jquery.scrollUp.min.js",
+              "src/assets/js/vendor/magnific-popup.min.js",
+              "src/assets/js/main.js"
+            ]
           }
         },
         "lint": {
